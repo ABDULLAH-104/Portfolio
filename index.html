@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah Tahir — Data Analyst</title>
+<meta name="description" content="Abdullah Tahir — Data Analyst. Python, SQL, Power BI, machine learning. Portfolio of dashboards, ETL pipelines and applied research projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav">
+  <a href="#top" class="nav__mark">AT<span>_</span></a>
+  <nav class="nav__links">
+    <a href="#work">work</a>
+    <a href="#about">about</a>
+    <a href="#certs">credentials</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <a href="assets/Abdullah_Tahir_Resume.pdf" class="nav__cta" download>résumé ↓</a>
+</header>
+
+<main id="top">
+
+  <!-- ============ MASTHEAD ============ -->
+  <section class="masthead">
+    <p class="masthead__eyebrow">Portfolio — Est. 2026</p>
+    <h1 class="masthead__name">Abdullah<br>Tahir</h1>
+    <div class="masthead__rule"><span></span></div>
+    <p class="masthead__role">Data Analyst&ensp;·&ensp;Python&ensp;·&ensp;SQL&ensp;·&ensp;Power BI</p>
+  </section>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__query">
+      <div class="query__bar">
+        <span class="query__dot"></span><span class="query__dot"></span><span class="query__dot"></span>
+        <span class="query__label">query — candidates.sql</span>
+      </div>
+      <pre class="query__code"><code><span class="tok-kw">SELECT</span> name, title, focus
+<span class="tok-kw">FROM</span> analysts
+<span class="tok-kw">WHERE</span> curiosity <span class="tok-op">=</span> <span class="tok-str">'high'</span>
+  <span class="tok-kw">AND</span> can_ship <span class="tok-op">=</span> <span class="tok-bool">true</span>
+<span class="tok-kw">LIMIT</span> 1;</code></pre>
+      <div class="query__resultbar">
+        <span class="query__resultdot"></span> 1 row returned
+      </div>
+      <div class="query__result">
+        <div class="result__row">
+          <span class="result__key">name</span><span class="result__val">Abdullah Tahir</span>
+        </div>
+        <div class="result__row">
+          <span class="result__key">title</span><span class="result__val" id="typewriter"></span><span class="cursor">▌</span>
+        </div>
+        <div class="result__row">
+          <span class="result__key">based_in</span><span class="result__val">Lahore, Pakistan</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__intro">
+      <p class="hero__eyebrow">Data Analyst — IT Undergraduate, 6th Semester</p>
+      <h2 class="hero__headline">I turn raw, messy<br> tables into decisions<br> people actually trust.</h2>
+      <p class="hero__sub">Python and SQL for the pipeline, Power BI and Tableau for the story. Recent work spans credit-risk modelling with JPMorgan Chase, forensic analytics with Deloitte, and a recommendation engine built from three real Kaggle datasets.</p>
+      <div class="hero__links">
+        <a href="#work" class="btn btn--primary">See the work</a>
+        <a href="https://github.com/ABDULLAH-104" target="_blank" rel="noopener" class="btn btn--ghost">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/abdullah-tahir-b6a395305" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES STRIP ============ -->
+  <section class="cap" aria-label="Areas of work">
+    <div class="cap__item">
+      <span class="cap__index">01</span>
+      <h3 class="cap__title">Data Engineering</h3>
+      <p class="cap__desc">Python &amp; SQL pipelines that clean, structure and index raw exports — schema design, indexing, ETL.</p>
+    </div>
+    <div class="cap__item">
+      <span class="cap__index">02</span>
+      <h3 class="cap__title">Business Intelligence</h3>
+      <p class="cap__desc">Power BI and Tableau dashboards built to answer a stakeholder's next question, not just the first one.</p>
+    </div>
+    <div class="cap__item">
+      <span class="cap__index">03</span>
+      <h3 class="cap__title">Machine Learning</h3>
+      <p class="cap__desc">Predictive modeling, binary classification and feature engineering, evaluated past the first working version.</p>
+    </div>
+    <div class="cap__item">
+      <span class="cap__index">04</span>
+      <h3 class="cap__title">Risk &amp; Forensics</h3>
+      <p class="cap__desc">Quantitative credit-risk analysis with JPMorgan Chase, forensic data analytics with Deloitte.</p>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="about__photo-wrap">
+      <img src="assets/profile.jpg" alt="Portrait of Abdullah Tahir" class="about__photo">
+      <div class="about__tag">status: <span>open to work</span></div>
+    </div>
+    <div class="about__text">
+      <span class="section__eyebrow">01 / about</span>
+      <h2 class="section__title">From spreadsheet chaos<br>to a dashboard someone<br>actually opens twice.</h2>
+      <p>I'm a detail-oriented IT graduate at Bahria University Lahore, currently in my 6th semester, with hands-on experience across data analysis, SQL database design, Python scripting, machine learning and Power BI dashboard development.</p>
+      <p>Most of my projects start the same way: a messy dataset, a vague question, and a deadline. I've built end-to-end pipelines, applied quantitative credit-risk and forensic-analytics methods on industry-aligned projects, and cleaned and analyzed datasets of 5,000+ rows to get to insights people can actually act on.</p>
+      <div class="about__skills">
+        <div class="skillgroup">
+          <h3>Data &amp; Analytics</h3>
+          <p>Python (Pandas, NumPy, Matplotlib), SQL, Power BI, Tableau, EDA, ETL / Data Wrangling</p>
+        </div>
+        <div class="skillgroup">
+          <h3>AI &amp; Machine Learning</h3>
+          <p>Predictive Modeling, Binary Classification, Feature Engineering, Model Evaluation, Deep Learning Foundations</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Databases</h3>
+          <p>MS SQL Server, Schema Design, Query Optimization, Normalized Design</p>
+        </div>
+        <div class="skillgroup">
+          <h3>Web &amp; Tools</h3>
+          <p>HTML, CSS, JavaScript, WordPress, Git, Excel, C++</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="work" id="work">
+    <span class="section__eyebrow">02 / selected work</span>
+    <h2 class="section__title work__title">Projects that shipped,<br>not just notebooks that ran.</h2>
+
+    <article class="project">
+      <div class="project__media">
+        <img src="assets/reddit_dashboard1.png" alt="Reddit Post Classification dashboard showing sentiment breakdown, topic distribution, posts over time and engagement" loading="lazy">
+      </div>
+      <div class="project__info">
+        <span class="project__index">P.01</span>
+        <h3>Reddit Post Classification Dashboard</h3>
+        <p>An interactive Power BI dashboard classifying Reddit posts by sentiment, topic and engagement level, built on top of a cleaned, feature-engineered dataset with drill-through by subreddit and date hierarchy.</p>
+        <ul class="project__stack">
+          <li>Power BI</li><li>Python</li><li>Sentiment Analysis</li><li>Data Modeling</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project project--reverse">
+      <div class="project__media">
+        <img src="assets/reddit_dashboard2.png" alt="Filter panel of the Reddit dashboard with subreddit, sentiment and date hierarchy filters" loading="lazy">
+      </div>
+      <div class="project__info">
+        <span class="project__index">P.02</span>
+        <h3>Drill-Through Filtering &amp; Date Hierarchy</h3>
+        <p>Built a full filter and drill-through layer — subreddit, sentiment class and a year/quarter/month/day hierarchy — so stakeholders can move from a headline chart to the underlying post in three clicks.</p>
+        <ul class="project__stack">
+          <li>Power BI</li><li>DAX</li><li>UX for Analysts</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project__media">
+        <img src="assets/recengine.png" alt="Google Colab notebook titled Personalized E-commerce Recommendation Engine, listing three Kaggle datasets used for collaborative filtering, content-based filtering and a hybrid model" loading="lazy">
+      </div>
+      <div class="project__info">
+        <span class="project__index">P.03</span>
+        <h3>Personalized E-commerce Recommendation Engine</h3>
+        <p>Three recommendation models built from three real Kaggle datasets: collaborative filtering with SVD, content-based filtering with TF-IDF, and a hybrid Random Forest model — built for Bahria University's Introduction to Data Science course.</p>
+        <ul class="project__stack">
+          <li>Python</li><li>scikit-learn</li><li>SVD</li><li>TF-IDF</li><li>Random Forest</li>
+        </ul>
+        <a href="https://github.com/ABDULLAH-104" target="_blank" rel="noopener" class="project__link">View on GitHub ↗</a>
+      </div>
+    </article>
+
+    <article class="project project--reverse">
+      <div class="project__media project__media--cert">
+        <img src="assets/cert_jpmorgan.png" alt="JPMorgan Chase & Co. Quantitative Research Job Simulation certificate of completion for Abdullah Tahir" loading="lazy">
+      </div>
+      <div class="project__info">
+        <span class="project__index">P.04</span>
+        <h3>Quantitative Credit Risk Analysis — JPMorgan Chase</h3>
+        <p>Analyzed a loan portfolio to estimate probability of default using quantitative research methods drawn from real-world credit risk modeling, then applied dynamic programming to convert continuous FICO scores into optimized categorical buckets.</p>
+        <ul class="project__stack">
+          <li>Dynamic Programming</li><li>Credit Risk</li><li>Python</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project__media project__media--cert">
+        <img src="assets/cert_deloitte.jpeg" alt="Deloitte Data Analytics Job Simulation certificate of completion for Abdullah Tahir" loading="lazy">
+      </div>
+      <div class="project__info">
+        <span class="project__index">P.05</span>
+        <h3>Data Analytics &amp; Forensic Technology — Deloitte</h3>
+        <p>Built a complete data dashboard in Tableau to surface findings for stakeholder review, and used Excel to classify and structure raw data in support of investigative, forensic-style analytical decisions.</p>
+        <ul class="project__stack">
+          <li>Tableau</li><li>Excel</li><li>Forensic Analytics</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ CERTS ============ -->
+  <section class="certs" id="certs">
+    <span class="section__eyebrow">03 / credentials</span>
+    <h2 class="section__title">Verified job simulations</h2>
+    <div class="certs__grid">
+      <div class="cert">
+        <span class="cert__issuer">Forage × JPMorgan Chase &amp; Co.</span>
+        <h3>Quantitative Research Job Simulation</h3>
+        <p>Investigated price data, priced a commodity storage contract, ran credit risk analysis, and bucketed FICO scores. Completed June 2026.</p>
+      </div>
+      <div class="cert">
+        <span class="cert__issuer">Forage × Deloitte Australia</span>
+        <h3>Data Analytics Job Simulation</h3>
+        <p>Practical tasks across data analysis and forensic technology, presented as stakeholder-ready findings. Completed June 2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="edu">
+    <span class="section__eyebrow">04 / education</span>
+    <div class="edu__row">
+      <div class="edu__degree">
+        <h3>BS, Information Technology</h3>
+        <p>Bahria University Lahore Campus</p>
+      </div>
+      <div class="edu__meta">
+        <span>Expected 2027</span>
+        <span>Currently 6th semester</span>
+        <span>Lahore, Pakistan</span>
+      </div>
+    </div>
+    <p class="edu__coursework"><strong>Relevant coursework —</strong> Data Science &amp; Analytics, Database Systems &amp; Administration, Software Engineering &amp; System Design, Network Administration &amp; Security, Mobile Application Development.</p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <span class="section__eyebrow">05 / contact</span>
+    <h2 class="section__title contact__title">Have a dataset that<br>needs an argument made for it?</h2>
+    <div class="contact__grid">
+      <a href="mailto:abdulllahtahir@yahoo.com" class="contact__card">
+        <span class="contact__label">email</span>
+        <span class="contact__value">abdulllahtahir@yahoo.com</span>
+      </a>
+      <a href="tel:+923038436498" class="contact__card">
+        <span class="contact__label">phone</span>
+        <span class="contact__value">+92 303-8436498</span>
+      </a>
+      <a href="https://www.linkedin.com/in/abdullah-tahir-b6a395305" target="_blank" rel="noopener" class="contact__card">
+        <span class="contact__label">linkedin</span>
+        <span class="contact__value">/in/abdullah-tahir-b6a395305 ↗</span>
+      </a>
+      <a href="https://github.com/ABDULLAH-104" target="_blank" rel="noopener" class="contact__card">
+        <span class="contact__label">github</span>
+        <span class="contact__value">/ABDULLAH-104 ↗</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© 2026 Abdullah Tahir</span>
+  <span class="footer__built">built with SQL logic, Python patience, and one very long weekend</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
